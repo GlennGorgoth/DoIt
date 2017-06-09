@@ -13,6 +13,7 @@
 		95F62AEA1EEB08FE007BD3FB /* Do_It.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 95F62AE81EEB08FE007BD3FB /* Do_It.xcdatamodeld */; };
 		95F62AEC1EEB08FE007BD3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95F62AEB1EEB08FE007BD3FB /* Assets.xcassets */; };
 		95F62AEF1EEB08FE007BD3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95F62AED1EEB08FE007BD3FB /* LaunchScreen.storyboard */; };
+		95F62AF71EEB1650007BD3FB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95F62AF61EEB1650007BD3FB /* Task.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		95F62AEB1EEB08FE007BD3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		95F62AEE1EEB08FE007BD3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95F62AF01EEB08FE007BD3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95F62AF61EEB1650007BD3FB /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				95F62AE11EEB08FE007BD3FB /* AppDelegate.swift */,
 				95F62AE31EEB08FE007BD3FB /* ViewController.swift */,
+				95F62AF61EEB1650007BD3FB /* Task.swift */,
 				95F62AE51EEB08FE007BD3FB /* Main.storyboard */,
 				95F62AEB1EEB08FE007BD3FB /* Assets.xcassets */,
 				95F62AED1EEB08FE007BD3FB /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				95F62AF71EEB1650007BD3FB /* Task.swift in Sources */,
 				95F62AEA1EEB08FE007BD3FB /* Do_It.xcdatamodeld in Sources */,
 				95F62AE41EEB08FE007BD3FB /* ViewController.swift in Sources */,
 				95F62AE21EEB08FE007BD3FB /* AppDelegate.swift in Sources */,
